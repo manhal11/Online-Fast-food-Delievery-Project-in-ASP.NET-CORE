@@ -15,6 +15,6 @@ namespace FastFood.Models
         public string ApplicationUserId { get;  set; }
         public ApplicationUser ApplicationUser { get; set; }
         [Required,MinLength(1)]
-        public int Coun { get; set; }
+        public int Count { get; set; }
     }
 }
